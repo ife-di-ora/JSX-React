@@ -20,10 +20,7 @@ body {
 }
 
 .container--card {
-  max-width: 60vh;
-  /* box-shadow: rgba(46, 78, 240, 0.4) 0px 5px, rgba(162, 46, 240, 0.3) 0px 0px,
-    rgba(27, 6, 19, 0.2) 0px -10px, rgba(240, 46, 170, 0.1) 0px 10px,
-    rgba(240, 46, 170, 0.05) 0px -20px; */
+  max-width: 70vh;
   border-radius: 15px;
   padding: 5px;
 }

@@ -29,7 +29,7 @@ function App() {
         </Card>
 
         {/* Check to see if name is entered */}
-        <div className="px-5 mt-5 container--card fs-3 fw-semibold bg-white">
+        <div className="px-5 my-3 container--card fs-3 fw-semibold bg-white">
           {yourName ? (
             <div className="d-flex justify-space-between align-items-center">
               <p className="pe-5 pt-2">Hello {yourName}</p>
