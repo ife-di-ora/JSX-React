@@ -1,3 +1,5 @@
+// image component
+
 import React from "react";
 import { Product } from "../../product";
 

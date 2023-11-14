@@ -1,3 +1,5 @@
+// product price component
+
 import React from "react";
 import { Product } from "../../product";
 

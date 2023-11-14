@@ -1,4 +1,5 @@
-import React from "react";
+// product description component
+
 import { Product } from "../../product";
 
 const Description = () => {

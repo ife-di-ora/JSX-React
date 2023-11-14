@@ -5,12 +5,9 @@ import Name from "./components/name/Name";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Card from "react-bootstrap/Card";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faHand } from "@fortawesome/free-solid-svg-icons";
 
-let yourName = prompt("What's your Name?").trim();
-
-// prompt("What is your Name?");
+// prompt to ask user for first name
+let yourName = prompt("What's your First Name, Buddy?").trim();
 
 function App() {
   return (
@@ -30,6 +27,8 @@ function App() {
             <Price />
           </Card.Footer>
         </Card>
+
+        {/* Check to see if name is entered */}
         <div className="px-5 mt-5 container--card fs-3 fw-semibold bg-white">
           {yourName ? (
             <div className="d-flex justify-space-between align-items-center">

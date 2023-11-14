@@ -1,4 +1,4 @@
-import React from "react";
+// product name component
 import { Product } from "../../product";
 
 const Name = () => {
