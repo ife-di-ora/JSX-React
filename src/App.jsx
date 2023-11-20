@@ -7,7 +7,7 @@ import "./App.css";
 import Card from "react-bootstrap/Card";
 
 // prompt to ask user for first name
-let yourName = prompt("What's your First Name, Buddy?").trim();
+let yourName = prompt("What's your First Name, Buddy?")?.trim();
 
 function App() {
   return (
